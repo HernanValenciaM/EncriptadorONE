@@ -38,7 +38,7 @@ main{
 
 .mensaje{
     background:#FFFFFF;
-    background-image: url(./Modelo\ Figma/muñeco.png);
+    background-image: url("./Modelo\ Figma/muñeco.png");
     background-size: 70%;
     background-repeat: no-repeat;
     background: size 100%;
