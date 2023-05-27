@@ -1,0 +1,137 @@
+*{ 
+    background:#F3F5FC ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.logo{
+    padding-top: 30px;
+    padding-left: 7px;
+    width: 7%;
+}
+
+main{
+    display: flex;
+    width: 1180px; ;
+    position: relative;
+    margin: 0px auto;
+}
+
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    text-transform: lowercase;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+  
+
+::placeholder{color: #0A3871}
+    .text-area:focus{
+        outline:none;
+    }
+
+.mensaje{
+    background:#FFFFFF;
+    background-image: url(Modelo\ Figma/muñeco.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background: size 100%;
+    
+    border: none;
+    background-position-x: 50%;
+    background-position-y: 28%;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 800px;
+    margin-top: 0px;
+    padding-left: 30px;
+    position: fixed;
+}
+
+.mensaje::placeholder{
+    font-size: 24px;
+    color:#343A40;
+    font-weight: 700;
+    text-align:center;
+    line-height: 90%;
+    position: absolute;
+    top: 58%;
+}
+
+.botones {
+   display: flex;
+   margin-top: 5px;
+}
+
+.btn-desencriptar{
+    background:#D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 350px;
+    width: 310px;
+    position: absolute;
+    top: 550px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-desencriptar:hover {
+    background-color: #555;
+}
+
+
+.btn-encriptar{
+    background:#0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 60px;
+    width: 310px;
+    position: absolute;
+    top: 550px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-encriptar:hover{
+    background-color: #09244c;
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 830px;
+    margin-top: 550px;
+    position: absolute;
+    width: 310px;
+    transition: background-color 0.3s ease;   
+}
+
+.btn-copiar:hover{
+    background-color: #09244c;
+}
+
+.informacion {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #495057;
+    position: absolute;
+    top: 500px;
+}
+
+.signo {
+    margin-right: 10px;
+}
+
