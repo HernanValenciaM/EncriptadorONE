@@ -8,11 +8,21 @@ const btnCopiar = document.querySelector(".btn-copiar");
 // La letra "u" es convertida para "ufat"
 
 function btnEncriptar() {
-  const textoEncriptado = encriptar(textArea.value);
+  const inputText = textArea.value;
+  
+  // Check for capital letters or special characters
+  if (/[A-Z]/.test(inputText) || /[^A-Za-z\s]/.test(inputText)) {
+    alert("Por favor ingrese solamente letras minusculas y sin acentos.");
+    textArea.value = ""; // Clear the textArea element
+    return; // Stop further execution of the function
+  }
+  
+  const textoEncriptado = encriptar(inputText);
   mensaje.value = textoEncriptado;
   textArea.value = "";
   mensaje.style.backgroundImage = "none";
 }
+
 
 function btnDesencriptar() {
   const textoDesencriptado = desencriptar(textArea.value);
@@ -59,4 +69,3 @@ function desencriptar(stringDesencriptado) {
 
   return stringDesencriptado;
 }
-

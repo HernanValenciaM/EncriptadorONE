@@ -13,6 +13,7 @@
     width: 7%;
 }
 
+
 main{
     display: flex;
     width: 1180px; ;
@@ -51,7 +52,7 @@ main{
     margin-left: 800px;
     margin-top: 0px;
     padding-left: 30px;
-    position: fixed;
+    position: absolute;
 }
 
 .mensaje::placeholder{
@@ -135,3 +136,57 @@ main{
     margin-right: 10px;
 }
 
+.facebook-link{
+    width: 24px;
+    height: 24px;
+    background:rgb(7, 29, 61);
+    padding: 10px;
+}
+
+.twitter-link{
+    width: 24px;
+    height: 24px;
+    background-color:rgb(7, 29, 61) ;
+    padding: 10px;
+}
+
+.git-link {
+    width: 24px;
+    height: 24px;
+    background-color:rgb(7, 29, 61) ;
+    padding: 10px;
+}
+
+.linkedin-link{
+    width: 24px;
+    height: 24px;
+    background-color:rgb(7, 29, 61) ;
+    padding: 10px;
+}
+
+.tiktok-link {
+    width: 24px;
+    height: 24px;
+    background-color:rgb(7, 29, 61) ;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(7, 29, 61);
+    color: #D8DFE8;
+    font-family: "inter", sans-serif;
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.Redes{
+    background-color: rgb(7, 29, 61);
+}
+
+a{
+    background-color: rgb(7, 29, 61);
+}
