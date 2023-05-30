@@ -29,7 +29,7 @@ main{
     text-transform: lowercase;
     position: absolute;
     top: 60px;
-    left: 5px;
+    left: 4px;
     font-size: 28px;
 }
 
@@ -79,11 +79,11 @@ margin-top: 5px;
     color: #0A3871;
     font-size: 28px;
     cursor: pointer;
-    height: 50px;
+    height: 60px;
     margin-left: 350px;
     width: 310px;
     position: absolute;
-    top: 620px;
+    top: 670px;
     transition: background-color 0.3s ease;
 }
 
@@ -99,10 +99,10 @@ margin-top: 5px;
     color: #FFFFFF;
     font-size: 28px;
     cursor: pointer;
-    height: 50px;
+    height: 60px;
     width: 310px;
     position: absolute;
-    top: 620px;
+    top: 670px;
     transition: background-color 0.3s ease;
 }
 
@@ -116,9 +116,9 @@ margin-top: 5px;
     color: #0A3871;
     font-size: 28px;
     cursor: pointer;
-    height: 50px;
-    margin-left: 830px;
-    margin-top: 620px;
+    height: 60px;
+    margin-left: 870px;
+    margin-top: 670px;
     position: absolute;
     width: 310px;
     transition: background-color 0.3s ease;   
@@ -134,7 +134,7 @@ margin-top: 5px;
     font-size: 18px;
     color: #495057;
     position: absolute;
-    top: 580px;
+    top: 610px;
 }
 
 .signo {
