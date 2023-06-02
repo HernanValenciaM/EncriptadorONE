@@ -283,7 +283,7 @@ a{
         margin-left: 350px;
         width: 310px;
         position: absolute;
-        top: 530px;
+        top: 430px;
         transition: background-color 0.3s ease;
     }
 
@@ -302,7 +302,7 @@ a{
         height: 50px;
         width: 310px;
         position: absolute;
-        top: 530px;
+        top: 430px;
         transition: background-color 0.3s ease;
     }
 
@@ -318,7 +318,7 @@ a{
         cursor: pointer;
         height: 50px;
         margin-left: 830px;
-        margin-top: 530px;
+        margin-top: 430px;
         position: absolute;
         width: 310px;
         transition: background-color 0.3s ease;   
@@ -334,7 +334,7 @@ a{
         font-size: 18px;
         color: #495057;
         position: absolute;
-        top: 480px;
+        top:390px;
     }
 
     .signo {
@@ -398,6 +398,3 @@ a{
 
 }
 
-
-    
-   
